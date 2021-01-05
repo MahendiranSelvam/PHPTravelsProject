@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PHPTravelSuite">
+    <test name="LoginPage Validation">
+        <classes>
+            <class name="com.phptravels.qa.testcases.LoginPageTest" />
+        </classes>
+    </test>
+
+    <test name="SignUpPage Validation">
+        <classes>
+            <class name="com.phptravels.qa.testcases.SignUpPageTest" />
+        </classes>
+    </test>
+
+    <test name="HomePage Validation">
+        <classes>
+            <class name="com.phptravels.qa.testcases.HomePageTest" />
+        </classes>
+    </test>
+</suite>
